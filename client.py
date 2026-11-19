@@ -39,13 +39,14 @@ except ImportError:
 # 1. CONFIGURATION (Set your defaults here)
 # ==============================================================================
 # HTTP Evaluation Server
-DEFAULT_HTTP_URL = "http://127.0.0.1:8000"          # Competition API Domain (e.g. https://api.yourdomain.com)
-DEFAULT_HTTP_TOKEN = 'YOUR_TEAM_PASSWORD'           # Team login password for the website
+# DEFAULT_HTTP_URL = "http://127.0.0.1:8000"          # Competition API Domain (e.g. https://api.yourdomain.com)
+DEFAULT_HTTP_URL = "https://edgeai-tesa.c333m.site/" 
+DEFAULT_HTTP_TOKEN = "FsKvOpe6WyX0jbujyTtasr"           # Team login password for the website
 
 # MQTT Broker (Summary Scores)
 DEFAULT_MQTT_HOST = "tesa-score.c333m.site"         # Hostname only (no https://)
 DEFAULT_TEAM_ID = "TGR-33"                            # Team ID (e.g. TEAM_01)
-DEFAULT_MQTT_KEY = 'YOUR_GENERATED_MQTT_KEY'        # Generated on website under My Team
+DEFAULT_MQTT_KEY = "7f88927b1ca94eff9ed5106f1cfe707aca02ad6747f1424e9ee1bde76764e2fd"        # Generated on website under My Team
 DEFAULT_TRACK = "EdgeAI"                            # "Embedded", "EdgeAI", or "Market"
 DEFAULT_EVENT = "1"                                 # Event ID (e.g. "1")
 # ==============================================================================
