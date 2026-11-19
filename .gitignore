@@ -1,0 +1,17 @@
+# Local environments, generated images, and test results
+.venv/
+__pycache__/
+*.py[cod]
+downloaded_images/
+cache/
+submissions/
+pipeline_test_result.json
+mqtt_retry_result.json
+.test-*/
+.verify-index-*/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.local.json
